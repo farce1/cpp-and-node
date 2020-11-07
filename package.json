@@ -1,0 +1,26 @@
+{
+  "name": "cpp-and-node",
+  "version": "1.0.0",
+  "description": "Use native code inside node (javascript)",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-gyp rebuild",
+    "start": "node main.js"
+  },
+  "gypfile": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farce1/cpp-and-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farce1/cpp-and-node/issues"
+  },
+  "homepage": "https://github.com/farce1/cpp-and-node#readme",
+  "dependencies": {
+    "nan": "^2.14.2",
+    "node-gyp": "^7.1.2"
+  }
+}
